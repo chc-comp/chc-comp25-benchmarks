@@ -3,5 +3,5 @@ input_files: faulty__nested-while!_000.smt2
 options:
   language: SMT-LIB
 properties:
-- expected_verdict: inconsistent
+- expected_verdict: false
   property_file: ../../properties/check-sat.prp
