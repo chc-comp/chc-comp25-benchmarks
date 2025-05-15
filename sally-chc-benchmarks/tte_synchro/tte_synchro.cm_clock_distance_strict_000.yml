@@ -3,5 +3,5 @@ input_files: tte_synchro.cm_clock_distance_strict_000.smt2
 options:
   language: SMT-LIB
 properties:
-- expected_verdict: inconsistent
+- expected_verdict: false
   property_file: ../../properties/check-sat.prp
