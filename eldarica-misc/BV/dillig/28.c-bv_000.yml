@@ -3,5 +3,4 @@ input_files: 28.c-bv_000.smt2
 options:
   language: SMT-LIB
 properties:
-- expected_verdict: inconsistent
-  property_file: ../../../properties/check-sat.prp
+  - property_file: ../../../properties/check-sat.prp

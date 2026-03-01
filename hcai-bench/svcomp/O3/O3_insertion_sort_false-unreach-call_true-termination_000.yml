@@ -3,5 +3,4 @@ input_files: O3_insertion_sort_false-unreach-call_true-termination_000.smt2
 options:
   language: SMT-LIB
 properties:
-- expected_verdict: inconsistent
-  property_file: ../../../properties/check-sat.prp
+  - property_file: ../../../properties/check-sat.prp
